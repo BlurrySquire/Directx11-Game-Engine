@@ -4,17 +4,14 @@
 #include <Windows.h>
 #include <comdef.h>
 
+#include "include/WideString.hpp"
+
 struct WindowInfo
 {
 	std::wstring WinTitle = L"Directx11 Game Engine";
 	const int WinWidth = 1280;
 	const int WinHeight = 720;
 };
-
-static std::wstring WideString(std::string string)
-{
-	return std::wstring(string.begin(), string.end());
-}
 
 static void LogError(HRESULT hResult, std::wstring errorMessage)
 {
