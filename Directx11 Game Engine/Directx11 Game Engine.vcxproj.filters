@@ -23,5 +23,8 @@
     <ClInclude Include="source\include\WideString.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="source\include\ErrorLogger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

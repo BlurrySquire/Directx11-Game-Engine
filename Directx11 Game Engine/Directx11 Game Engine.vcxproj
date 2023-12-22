@@ -91,6 +91,7 @@
     <ClCompile Include="source\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\include\ErrorLogger.hpp" />
     <ClInclude Include="source\include\WideString.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
