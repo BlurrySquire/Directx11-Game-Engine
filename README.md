@@ -3,7 +3,7 @@ A WIP (Work In Progress) game engine created in C++ using the Directx11 Graphics
 
 ## Current Progress Checklist
 This is a checklist of my progress on the current features that I am working on.
-- [X] [Percentage Of Completion] Name of the feature
+- [ ] [Percentage Of Completion] Name of the feature
 - [X] [100%] Appropiate Error Logging System (Using Windows' message boxes for displaying error messages)
 - [X] [100%] Creating the window class
 - [ ] [5%] Creating the renderer window
